@@ -63,6 +63,22 @@ pop( <posição> ):
 cars.pop(3)
 ~~~
 
+**O que faz a função print:**
+
+Imprimir um argumento passado na tela.
+
+**Sintaxe**
+
+~~~py
+print(<variável>)
+~~~
+
+**Exemplo**
+
+~~~py
+print('Olá, Mundo!')
+~~~
+
 **O que faz a função remove:**
 
 Remove uma lista de valores do primeiro jogo.
@@ -79,7 +95,39 @@ remove( <variável> ):
 cars.remove('Hilux')
 ~~~
 
-**O que a função values faz:**
+**O que faz a função str:**
+
+Converte um dado para string.
+
+**Sintaxe**
+
+~~~py
+str( <variável> ):
+~~~
+
+**Exemplo**
+
+~~~py
+str(height)
+~~~
+
+**O que faz a função type:**
+
+Retorna o tipo de um objeto.
+
+**Sintaxe**
+
+~~~py
+type( <variável> ):
+~~~
+
+**Exemplo**
+
+~~~py
+print(type(tuple_01))
+~~~
+
+**O que faz a função values:**
 
 Traz todos os valores do dicionário.
 
@@ -94,9 +142,3 @@ values()
 ~~~py
 print(collect.values())
 ~~~
-
-
-
-
-
-
