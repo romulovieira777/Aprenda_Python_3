@@ -142,3 +142,12 @@ values()
 ~~~py
 print(collect.values())
 ~~~
+
+| Operadores Aritméticos | Operação                  |
+|------------------------|---------------------------|
+| +                      | Soma os Valores           |
+| -                      | Subtração dos Valores     |
+| *                      | Multiplicação dos Valores |
+| **                     | Calcula a Potência        |
+| /                      | Divisão dos Valores       |
+| %                      | Resto da Divisão          |
