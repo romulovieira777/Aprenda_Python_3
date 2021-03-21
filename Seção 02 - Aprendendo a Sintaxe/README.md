@@ -143,6 +143,7 @@ values()
 print(collect.values())
 ~~~
 
+### Operadores em Python
 | Operadores Aritméticos | Operação                  |
 |------------------------|---------------------------|
 | +                      | Soma os Valores           |
