@@ -143,7 +143,7 @@ values()
 print(collect.values())
 ~~~
 
-### Operadores em Python
+### Operadores Aritméticos em Python
 | Operadores Aritméticos | Operação                  |
 |------------------------|---------------------------|
 | +                      | Soma os Valores           |
@@ -154,6 +154,7 @@ print(collect.values())
 | %                      | Resto da Divisão          |
 
 
+### Operadores Condicionais em Python
 | Operadores Condicionais | Operação                  |
 |-------------------------|---------------------------|
 | >                       | Maior que                 |
