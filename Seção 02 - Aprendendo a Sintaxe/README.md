@@ -152,3 +152,15 @@ print(collect.values())
 | **                     | Calcula a Potência        |
 | /                      | Divisão dos Valores       |
 | %                      | Resto da Divisão          |
+
+
+| Operadores Condicionais | Operação                  |
+|-------------------------|---------------------------|
+| >                       | Maior que                 |
+| <                       | Menor que                 |
+| >=                      | Maior ou igual            |
+| <=                      | Menor ou igual            |
+| ==                      | Igual                     |
+| !=                      | Diferente                 |
+| and                     | E                         |
+| or                      | Ou                        |
