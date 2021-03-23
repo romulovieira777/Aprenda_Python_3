@@ -15,6 +15,40 @@ append(<variável>):
 lista_04.append('Gorila')
 ~~~
 
+**O que faz a função for:**
+
+Executa um ciclo para cada elemento do objeto que está sendo iterado.
+
+**Sintaxe**
+
+~~~py
+for <variável> in <objeto iterável>:
+    bloco de instrução
+~~~
+
+**Exemplo**
+
+~~~py
+for numero in range(1, 6):
+    print(numero)
+~~~
+
+**O que faz a função in:**
+
+Verifica se o operando a sua esquerda, está contido na lista a sua direita.
+
+**Sintaxe**
+
+~~~py
+ in (<variável>)
+~~~
+
+**Exemplo**
+
+~~~py
+2 and 3 in range(1,6)
+~~~
+
 **O que faz a função insert:**
 
 Insere um dado à lista na posição cujo índice seja igual ao informado e os elementos que estiverem após o novo elemento, terão seus índices alterados automaticamente.
@@ -47,6 +81,22 @@ keys( <posição>, <variável> ):
 people.keys()
 ~~~
 
+**O que a função len faz:**
+
+Retorna a quantidade de elementos contidos numa lista.
+
+**Sintaxe**
+
+~~~py
+len(<variável>)
+~~~
+
+**Exemplo**
+
+~~~py
+print(len(our_text))
+~~~
+
 **O que faz a função pop:**
 
 Retorna um elemento da lista e no mesmo instânte, remove-o.
@@ -77,6 +127,22 @@ print(<variável>)
 
 ~~~py
 print('Olá, Mundo!')
+~~~
+
+**O que a função range faz:**
+
+Permite-nos especificar o início da sequência, o passo, e o valor final.
+
+**Sintaxe**
+
+~~~py
+range(<variável>):
+~~~
+
+**Exemplo**
+
+~~~py
+range(0, 10)
 ~~~
 
 **O que faz a função remove:**
