@@ -108,6 +108,22 @@ if idade < 20:
     print('Você é jovem!')
 ~~~
 
+**O que faz a função import:**
+
+É uma linha com o caminho completo para o arquivo python que contem o módulo que se deseja importar.
+
+**Sintaxe**
+
+~~~py
+import <biblioteca>
+~~~
+
+**Exemplo**
+
+~~~py
+import re
+~~~
+
 **O que faz a função in:**
 
 Verifica se o operando a sua esquerda, está contido na lista a sua direita.
@@ -284,6 +300,22 @@ str( <variável> ):
 str(height)
 ~~~
 
+**O que faz a função time.sleep:**
+
+É usada para adicionar um atraso de tempo ao seu código.
+
+**Sintaxe**
+
+~~~py
+time.sleep( <variável> ):
+~~~
+
+**Exemplo**
+
+~~~py
+time.sleep(10)
+~~~
+
 **O que faz a função type:**
 
 Retorna o tipo de um objeto.
@@ -314,6 +346,22 @@ values()
 
 ~~~py
 print(collect.values())
+~~~
+
+**O que faz a função webbrowser.open:**
+
+Pode ser utilizada para abrir uma URL através do navegador padrão do usuário.
+
+**Sintaxe**
+
+~~~py
+webbrowser.open()
+~~~
+
+**Exemplo**
+
+~~~py
+webbrowser.open('https://www.youtube.com/watch?v=JKM0dSAtl-E&list=RDOpMm5JO0wtU&index=3')
 ~~~
 
 **O que a função while faz:**
