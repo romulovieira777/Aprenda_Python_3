@@ -15,6 +15,63 @@ append(<variável>):
 lista_04.append('Gorila')
 ~~~
 
+**O que faz a função elif:**
+
+É parecida com else, porém a usamos quando queremos atribuir uma condição para else.
+
+**Sintaxe**
+
+~~~py
+elif(<variável>)
+~~~
+
+**Exemplo**
+
+~~~py
+age = int(input('Enter your age: '))
+
+if (age >= 0) and (age <= 12):
+    print('Your are Child!')
+elif (age >= 13) and (age <= 17):
+    print(' Your are a Teenager!')
+~~~
+
+**O que faz a função else:**
+
+A instrução else é uma instrução dependente, isto é, uma instrução que não pode ser utilizada sozinha. A instrução else só é executada se a condição do if for falsa.
+
+**Sintaxe**
+
+~~~py
+else:
+~~~
+
+**Exemplo**
+
+~~~py
+idade = 18
+if idade >= 18:
+    print('maior de idade')
+else:
+    print('menor de idade')
+~~~
+
+**O que faz a função float:**
+
+Devolve um número de ponto flutuante construído a partir de um número ou string.
+
+**Sintaxe**
+
+~~~py
+float(<variável>)
+~~~
+
+**Exemplo**
+
+~~~py
+nota1 = float(input("Entre com a primeira nota: "))
+~~~
+
 **O que faz a função for:**
 
 Executa um ciclo para cada elemento do objeto que está sendo iterado.
@@ -33,6 +90,24 @@ for numero in range(1, 6):
     print(numero)
 ~~~
 
+**O que faz a função if:**
+
+É uma estrutura de condição que permite avaliar uma expressão e, de acordo com seu resultado, executar uma determinada ação.
+
+**Sintaxe**
+
+~~~py
+if(<variável>)
+~~~
+
+**Exemplo**
+
+~~~py
+idade = 18
+if idade < 20:
+    print('Você é jovem!')
+~~~
+
 **O que faz a função in:**
 
 Verifica se o operando a sua esquerda, está contido na lista a sua direita.
@@ -49,6 +124,22 @@ Verifica se o operando a sua esquerda, está contido na lista a sua direita.
 2 and 3 in range(1,6)
 ~~~
 
+**O que faz a função input:**
+
+É para entrada de dados feita pelo usuário.
+
+**Sintaxe**
+
+~~~py
+input(<variável>)
+~~~
+
+**Exemplo**
+
+~~~py
+nome = input('Entre com o nome do aluno: ')
+~~~
+
 **O que faz a função insert:**
 
 Insere um dado à lista na posição cujo índice seja igual ao informado e os elementos que estiverem após o novo elemento, terão seus índices alterados automaticamente.
@@ -63,6 +154,22 @@ insert(<variável>):
 
 ~~~py
 cars.insert(0, 'Hilux')
+~~~
+
+**O que faz a função int:**
+
+Converte um dado string para um número inteiro.
+
+**Sintaxe**
+
+~~~py
+int(<variável>)
+~~~
+
+**Exemplo**
+
+~~~py
+number_01 = int(input('Enter the first number: '))
 ~~~
 
 **O que faz a função keys:**
@@ -208,6 +315,26 @@ values()
 ~~~py
 print(collect.values())
 ~~~
+
+**O que a função while faz:**
+
+Repete a sequência de comandos definida em seu corpo enquanto a <condição> permanece verdadeira.
+
+**Sintaxe**
+
+~~~py
+while(<condição>):
+~~~
+
+**Exemplo**
+
+~~~py
+numero = 1
+while numero < 6:
+    print(numero)
+    numero += 1
+~~~
+
 
 ### Operadores Aritméticos em Python
 | Operadores Aritméticos | Operação                  |
