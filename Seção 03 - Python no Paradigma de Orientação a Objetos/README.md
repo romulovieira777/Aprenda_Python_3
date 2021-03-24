@@ -33,6 +33,25 @@ print(<variável>)
 print('Olá, Mundo!')
 ~~~
 
+**O que a função return faz:**
+
+É utilizada para declarar a informação a ser retornada pela função.
+
+**Sintaxe**
+
+~~~py
+return(<condição>):
+~~~
+
+**Exemplo**
+
+~~~py
+def soma(x,y):
+    num = x * y
+    return num
+~~~
+
+
 ### Operadores Aritméticos em Python
 | Operadores Aritméticos | Operação                  |
 |------------------------|---------------------------|
