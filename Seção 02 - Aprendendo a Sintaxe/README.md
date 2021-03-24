@@ -252,6 +252,22 @@ print(<variável>)
 print('Olá, Mundo!')
 ~~~
 
+**O que faz a função randint:**
+
+Gera aleatoriamente um número inteiro dentro de um intervalo dado pelo usuário.
+
+**Sintaxe**
+
+~~~py
+randint(<variável>)
+~~~
+
+**Exemplo**
+
+~~~py
+prize_draw = random.randint(1, 100)
+~~~
+
 **O que a função range faz:**
 
 Permite-nos especificar o início da sequência, o passo, e o valor final.
