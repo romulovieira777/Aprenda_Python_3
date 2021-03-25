@@ -56,6 +56,24 @@ def hello(meu_nome):
     print('Olá',meu_nome)
 ~~~
 
+**O que faz a função for:**
+
+Executa um ciclo para cada elemento do objeto que está sendo iterado.
+
+**Sintaxe**
+
+~~~py
+for <variável> in <objeto iterável>:
+    bloco de instrução
+~~~
+
+**Exemplo**
+
+~~~py
+for numero in range(1, 6):
+    print(numero)
+~~~
+
 **O que faz a função from:**
 
 É usada para especificar a biblioteca.
@@ -86,6 +104,22 @@ import <biblioteca>
 
 ~~~py
 import re
+~~~
+
+**O que faz a função in:**
+
+Verifica se o operando a sua esquerda, está contido na lista a sua direita.
+
+**Sintaxe**
+
+~~~py
+ in (<variável>)
+~~~
+
+**Exemplo**
+
+~~~py
+2 and 3 in range(1,6)
 ~~~
 
 **O que faz a função print:**
