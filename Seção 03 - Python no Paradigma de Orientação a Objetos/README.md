@@ -138,6 +138,24 @@ print(<variável>)
 print('Olá, Mundo!')
 ~~~
 
+**O que faz a função property:**
+
+Permite que você declare uma função para obter o valor de um atributo.
+
+**Sintaxe**
+
+~~~py
+@property
+~~~
+
+**Exemplo**
+
+~~~py
+@property
+    def title(self):
+        return self.__title
+~~~
+
 **O que faz a função return:**
 
 É utilizada para declarar a informação a ser retornada pela função.
@@ -175,6 +193,24 @@ def __init__(self,  title, author, publisher, isbn, year):
         self.publisher = publisher
         self.isbn = isbn
         self.year = year
+~~~
+
+*O que faz a função setter:**
+
+Permite você inserir dados em uma variável.
+
+**Sintaxe**
+
+~~~py
+@title.setter
+~~~
+
+**Exemplo**
+
+~~~py
+@title.setter
+    def title(self, title):
+        self.__title = title
 ~~~
 
 
