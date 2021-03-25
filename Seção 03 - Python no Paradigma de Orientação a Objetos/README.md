@@ -56,6 +56,38 @@ def hello(meu_nome):
     print('Olá',meu_nome)
 ~~~
 
+**O que faz a função from:**
+
+É usada para especificar a biblioteca.
+
+**Sintaxe**
+
+~~~py
+import <biblioteca> from <caminho>
+~~~
+
+**Exemplo**
+
+~~~py
+from calculadora import Calculator
+~~~
+
+**O que faz a função import:**
+
+É uma linha com o caminho completo para o arquivo python que contem o módulo que se deseja importar.
+
+**Sintaxe**
+
+~~~py
+import <biblioteca>
+~~~
+
+**Exemplo**
+
+~~~py
+import re
+~~~
+
 **O que faz a função print:**
 
 Imprimir um argumento passado na tela.
