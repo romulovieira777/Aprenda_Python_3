@@ -1,4 +1,43 @@
 ### :computer: Comandos em Python que foram usados nos Arquivos acima: :rocket:
+**O que faz a função __init__:**
+
+Ativa as propriedades da classe para um objeto específico, uma vez criada e correspondida à classe correspondente.
+
+**Sintaxe**
+
+~~~py
+__init__(<parâmetros>):
+~~~
+
+**Exemplo**
+
+~~~py
+__init__(self,  title, author, publisher, isbn, year)
+~~~
+
+**O que faz a função class:**
+
+O mecanismo de herança permite múltiplas classes base (herança múltipla).
+
+**Sintaxe**
+
+~~~py
+class(<parâmetros>):
+~~~
+
+**Exemplo**
+
+~~~py
+class Book:
+
+    def __init__(self,  title, author, publisher, isbn, year):
+        self.title = title
+        self.author = author
+        self.publisher = publisher
+        self.isbn = isbn
+        self.year = year
+~~~
+
 **O que faz a função def:**
 
 É para definir uma função que é uma sequência de comandos que executa alguma tarefa e que tem um nome.
@@ -33,7 +72,7 @@ print(<variável>)
 print('Olá, Mundo!')
 ~~~
 
-**O que a função return faz:**
+**O que faz a função return:**
 
 É utilizada para declarar a informação a ser retornada pela função.
 
@@ -50,6 +89,28 @@ def soma(x,y):
     num = x * y
     return num
 ~~~
+
+**O que faz a função self:**
+
+Representa o objeto que herdará essas propriedades.
+
+**Sintaxe**
+
+~~~py
+self(<condição>):
+~~~
+
+**Exemplo**
+
+~~~py
+def __init__(self,  title, author, publisher, isbn, year):
+        self.title = title
+        self.author = author
+        self.publisher = publisher
+        self.isbn = isbn
+        self.year = year
+~~~
+
 
 
 ### Operadores Aritméticos em Python
