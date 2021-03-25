@@ -213,6 +213,29 @@ Permite você inserir dados em uma variável.
         self.__title = title
 ~~~
 
+*O que faz a função super:**
+
+É utilizado entre heranças de classes, ele nos proporciona extender/subscrever métodos de uma super classe (classe pai) para uma sub classe (classe filha), atrávez dele definimos um novo comportamento para um determinado método construido na classe pai e herdado pela classe filha.
+**Sintaxe**
+
+~~~py
+super().__init__(<parâmetros>)
+~~~
+
+**Exemplo**
+
+~~~py
+    def __init__(self, name, weight):  # Nome, Peso
+        self.name = name
+        self.weight = weight
+
+
+class Daughter(Father):
+    def __init__(self, name, weight, hair):  # Cabelo
+        super().__init__(name, weight)
+        self.hair = hair
+~~~
+
 
 
 ### Operadores Aritméticos em Python
