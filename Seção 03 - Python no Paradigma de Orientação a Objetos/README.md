@@ -1,4 +1,20 @@
 ### :computer: Comandos em Python que foram usados nos Arquivos acima: :rocket:
+**O que faz a função append:**
+
+Adiciona qualquer valor completo, por exemplo, se enviarmos um objeto, ele adiciona o objeto, se enviarmos uma lista, ele adiciona a lista inteira ao invés de seus itens.
+
+**Sintaxe**
+
+~~~py
+append(<variável>):
+~~~
+
+**Exemplo**
+
+~~~py
+lista_04.append('Gorila')
+~~~
+
 **O que faz a função __init__:**
 
 Ativa as propriedades da classe para um objeto específico, uma vez criada e correspondida à classe correspondente.
@@ -154,6 +170,22 @@ Permite que você declare uma função para obter o valor de um atributo.
 @property
     def title(self):
         return self.__title
+~~~
+
+**O que a função range faz:**
+
+Permite-nos especificar o início da sequência, o passo, e o valor final.
+
+**Sintaxe**
+
+~~~py
+range(<variável>):
+~~~
+
+**Exemplo**
+
+~~~py
+range(0, 10)
 ~~~
 
 **O que faz a função return:**
